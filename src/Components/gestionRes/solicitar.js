@@ -144,7 +144,7 @@ const Reservas = () => {
             <ul className="list-group">
                 {reservas.map(reserva => (
                     <li key={reserva.codigo} className="list-group-item">
-                        <strong>Codigo:</strong> {reserva.codigo} | <strong>codigo de habitacion:</strong> {reserva.codigo_habitacion} | <strong>Nombre de cliente:</strong> {reserva.nombre_cliente} | <strong>Telefono de cliente:</strong> {reserva.telefono_cliente}| <strong>fecha de reservacion:</strong> {reserva.fecha_reservacion} | <strong>fecha de entrada:</strong> {reserva.fecha_entrada}| <strong>fecha de salida:</strong> {reserva.fecha_salida}
+                        <strong>Codigo:</strong> {reserva.codigo}    <strong>codigo de habitacion:</strong> {reserva.codigo_habitacion}      <strong>Nombre de cliente:</strong> {reserva.nombre_cliente}       <strong>Telefono de cliente:</strong> {reserva.telefono_cliente}    <strong>fecha de reservacion:</strong> {reserva.fecha_reservacion}       <strong>fecha de entrada:</strong> {reserva.fecha_entrada}       <strong>fecha de salida:</strong> {reserva.fecha_salida}
                         {editHabByID === reserva.codigo ? (
                             // Formulario de edición en la página principal
                             <div>
