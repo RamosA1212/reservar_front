@@ -116,7 +116,7 @@ const Habitaciones = () => {
         <ul className="list-group">
           {habitaciones.map(habitacion => (
             <li key={habitacion.codigo} className="list-group-item">
-              <strong>Codigo:</strong> {habitacion.codigo} | <strong>Número:</strong> {habitacion.numero} | <strong>Tipo:</strong> {habitacion.tipo} | <strong>Valor:</strong> {habitacion.valor}
+              <strong>Codigo:</strong> {habitacion.codigo}      <strong>Número:</strong> {habitacion.numero}      <strong>Tipo:</strong> {habitacion.tipo}        <strong>Valor:</strong> {habitacion.valor}
               {editHabByID === habitacion.codigo ? (
                 // Formulario de edición en la página principal
                 <div>
